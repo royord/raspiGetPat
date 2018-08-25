@@ -13,3 +13,4 @@ sudo apt-get dist-upgrade
 Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
 http://www.cantab.net/users/john.wiseman/Documents/ARDOPC.html
+http://hamlib.sourceforge.net/manuals/1.2.15/index.html
