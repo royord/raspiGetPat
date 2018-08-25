@@ -3,9 +3,9 @@
 0.b set password so that it's not easily hacked.
 
 1. Start by updating expanding filesystem.
-'''
+```
   sudo raspi-config
-'''
+```
 expand filesystem
 
 2. After Reboot update the raspberry pi.
