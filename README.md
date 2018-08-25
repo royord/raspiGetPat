@@ -9,10 +9,10 @@
 expand filesystem
 
 2. After Reboot update the raspberry pi.
-<code>
+```
 sudo apt-get update
-sudo apt-get dist-upgrade
-</code>
+sudo apt-get dist-upgrade -y
+```
 
 3. Install screen and VIM
 `sudo apt-get install vim screen`
