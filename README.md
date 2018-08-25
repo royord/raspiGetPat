@@ -18,6 +18,10 @@ sudo apt-get dist-upgrade
 <code>
 sudo apt-get install vim screen
 </code>
+3a. Start Screen
+<code>
+  screen
+  </code>
 
 4. Install hamlib
 sudo apt-get install automake libtool textinfo<br>
