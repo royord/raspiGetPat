@@ -16,8 +16,8 @@ sudo apt-get dist-upgrade -y
 
 3. Install screen and VIM
 ```
-sudo apt-get install vim screen```
-
+sudo apt-get install vim screen
+```
 3a. Start Screen
 ```
   screen
