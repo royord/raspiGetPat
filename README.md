@@ -11,6 +11,7 @@ expand filesystem
 2. After Reboot update the raspberry pi.
 <code>
 sudo apt-get update
+  <code>
 sudo apt-get dist-upgrade
 </code>
 
