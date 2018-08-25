@@ -21,7 +21,8 @@ sudo apt-get dist-upgrade
 <code>
   screen
   </code>
-
+..b. Install Git
+'sudo apt-get install git -y'
 4. Install hamlib
 sudo apt-get install automake libtool textinfo<br>
 cd ~<br>
