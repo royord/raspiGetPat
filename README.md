@@ -37,6 +37,8 @@ make check
 sudo make install
 ```
 
+Left off with issue installing hamlib, will need to pick it up here.
+
 Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
 http://www.cantab.net/users/john.wiseman/Documents/ARDOPC.html
