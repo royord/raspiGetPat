@@ -11,7 +11,9 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 
 3. Install screen and VIM
+<code>
 sudo apt-get install vim screen
+</code>
 
 Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
