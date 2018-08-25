@@ -10,6 +10,9 @@ expand filesystem
 sudo apt-get update
 sudo apt-get dist-upgrade
 
+3. Install screen and VIM
+sudo apt-get install vim screen
+
 Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
 http://www.cantab.net/users/john.wiseman/Documents/ARDOPC.html
