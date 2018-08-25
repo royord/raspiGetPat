@@ -1,7 +1,10 @@
 # raspiGetPat
-0. Enable SSH
-0.b set password so that it's not easily hacked.
+0. Enable SSH by placing a 'ssh' file in the 'boot' drive before starting up the raspberry pi for the first time. This can be done after the flashing has been done by either mounting '/dev/sdX1' and running 'touch ssh' within the directory. From a mac you can use 'touch /Volumes/boot/ssh'
 
+0.b set password so that it's not easily hacked.
+```
+passwd
+```
 1. Start by updating expanding filesystem.
 ```
   sudo raspi-config
@@ -45,6 +48,8 @@ sudo make install
 ```
 
 Left off with issue installing hamlib, will need to pick it up here.
+Installing PAT
+Installing piardopc
 
 ###Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
