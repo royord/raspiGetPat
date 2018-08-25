@@ -20,7 +20,6 @@ sudo apt-get install vim screen
 </code>
 
 4. Install hamlib
-<code>
 sudo apt-get install automake libtool textinfo<br>
 cd ~<br>
 git clone git://hamlib.git.sourceforge.net/gitroot/hamlib/hamlib<br>
@@ -29,7 +28,6 @@ sh autogen.sh<br>
 make<br>
 make check<br> 
 sudo make install<br>
-</code>
 
 Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
