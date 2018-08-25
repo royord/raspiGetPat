@@ -3,12 +3,16 @@
 0.b set password so that it's not easily hacked.
 
 1. Start by updating expanding filesystem.
-raspi-config
+<code>
+  sudo raspi-config
+  </code>
 expand filesystem
 
 2. After Reboot update the raspberry pi.
+<code>
 sudo apt-get update
 sudo apt-get dist-upgrade
+</code>
 
 3. Install screen and VIM
 <code>
