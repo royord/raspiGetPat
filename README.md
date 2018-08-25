@@ -48,8 +48,8 @@ sudo make install
 ```
 
 Left off with issue installing hamlib, will need to pick it up here.
-Installing PAT
-Installing piardopc
+- Installing PAT
+- Installing piardopc
 
 ###Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
