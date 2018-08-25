@@ -15,12 +15,13 @@ sudo apt-get dist-upgrade -y
 ```
 
 3. Install screen and VIM
-`sudo apt-get install vim screen`
+```
+sudo apt-get install vim screen```
 
 3a. Start Screen
-<code>
+```
   screen
-  </code>
+```
 ..b. Install Git
 
 `sudo apt-get install git -y`
@@ -39,7 +40,7 @@ sudo make install
 
 Left off with issue installing hamlib, will need to pick it up here.
 
-Sources:
+###Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
 http://www.cantab.net/users/john.wiseman/Documents/ARDOPC.html
 http://hamlib.sourceforge.net/manuals/1.2.15/index.html
