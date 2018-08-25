@@ -26,14 +26,16 @@ sudo apt-get dist-upgrade -y
 `sudo apt-get install git -y`
 
 4. Install hamlib
-sudo apt-get install automake libtool textinfo<br>
-cd ~<br>
-git clone git://hamlib.git.sourceforge.net/gitroot/hamlib/hamlib<br>
-cd hamlib<br>
-sh autogen.sh<br>
-make<br>
-make check<br> 
-sudo make install<br>
+```
+sudo apt-get install automake libtool textinfo
+cd ~
+git clone git://hamlib.git.sourceforge.net/gitroot/hamlib/hamlib
+cd hamlib
+sh autogen.sh
+make
+make check
+sudo make install
+```
 
 Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
