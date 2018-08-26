@@ -40,6 +40,7 @@ sudo apt-get install libasound2 libasound2-dev
 wget http://www.cantab.net/users/john.wiseman/Downloads/Beta/piardopc
 ```
 Left off with issue installing hamlib, will need to pick it up here.
+- Installing Direwolf
 - Installing PAT
 - Running needed components as a service.
 
