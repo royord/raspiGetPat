@@ -19,15 +19,12 @@ sudo apt-get dist-upgrade -y
 
 3. Install screen and VIM
 ```
-sudo apt-get install vim screen
+sudo apt-get install vim screen git -y
 ```
 3a. Start Screen
 ```
   screen
 ```
-..b. Install Git
-
-`sudo apt-get install git -y`
 
 4. Install hamlib
 ```
