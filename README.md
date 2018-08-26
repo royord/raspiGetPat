@@ -31,14 +31,7 @@ sudo apt-get install vim screen
 
 4. Install hamlib
 ```
-sudo apt-get install automake libtool textinfo
-cd ~
-git clone git://hamlib.git.sourceforge.net/gitroot/hamlib/hamlib
-cd hamlib
-sh autogen.sh
-make
-make check
-sudo make install
+sudo apt-get install libhamlib-utils
 ```
 Purposed install method:
 ```
