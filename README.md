@@ -46,6 +46,9 @@ Purposed install method:
 make
 sudo make install
 ```
+5. Install alsa shield
+```
+sudo apt-get install libasound2 libasound2-dev
 
 Left off with issue installing hamlib, will need to pick it up here.
 - Installing PAT
