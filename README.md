@@ -48,6 +48,12 @@ Left off with issue installing hamlib, will need to pick it up here.
 - Installing PAT
 - Installing piardopc
 
+Commands that may be useful, need to document how to work with these commands.
+'''
+arecord -l
+aplay -l
+'''
+
 ###Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
 
