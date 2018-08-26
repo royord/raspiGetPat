@@ -33,12 +33,7 @@ sudo apt-get install vim screen
 ```
 sudo apt-get install libhamlib-utils
 ```
-Purposed install method:
-```
-./configure
-make
-sudo make install
-```
+
 5. Install alsa shield
 ```
 sudo apt-get install libasound2 libasound2-dev
