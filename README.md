@@ -23,7 +23,7 @@ sudo apt-get install vim screen git -y
 ```
 3a. Start Screen
 ```
-  screen
+screen
 ```
 
 4. Install hamlib
