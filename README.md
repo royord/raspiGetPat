@@ -7,7 +7,7 @@ passwd
 ```
 1. Start by updating expanding filesystem.
 ```
-  sudo raspi-config
+sudo raspi-config
 ```
 expand filesystem
 
