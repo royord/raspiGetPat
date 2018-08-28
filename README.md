@@ -63,9 +63,13 @@ go get github.com/la5nta/pat
 ```
 11. Configure pat by running `pat configure` make sure to set the following:
 ```
-"mycall":<yourCallsign>
-"secure_login_password":<yourSecretPassword>
+"mycall":"<yourCallsign>",
+"secure_login_password":"<yourSecretPassword>",
+"locator": "<yourGridSquare>",
 ```
+If you need help finding your gridsquare use the following site.
+http://www.levinecentral.com/ham/grid_square.php
+
 If you plan to use the web interface you may want to also change 
 ```
 "http_addr": "localhost:8080",
