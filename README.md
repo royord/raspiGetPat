@@ -57,6 +57,10 @@ sudo apt-get install golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
+10. Install PAT from getpat.io as suggensted with the following command
+```
+go get github.com/la5nta/pat
+```
 
 Left off with issue installing hamlib, will need to pick it up here.
 - Installing Direwolf
