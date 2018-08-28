@@ -48,6 +48,11 @@ make
 sudo make install
 make install-conf
 ```
+8. Install GO language
+```
+sudo apt-get install golang
+```
+
 Left off with issue installing hamlib, will need to pick it up here.
 - Installing Direwolf
 - Installing PAT
