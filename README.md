@@ -58,6 +58,7 @@ Commands that may be useful, need to document how to work with these commands.
 '''
 arecord -l
 aplay -l
+./piardopc 8515 hw:1,0 hw:1,0 -c /dev/ttyUSB0 -- working command
 '''
 
 ### Sources:
