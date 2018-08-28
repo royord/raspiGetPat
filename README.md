@@ -19,22 +19,18 @@ sudo apt-get dist-upgrade -y
 
 3. Install screen and VIM
 ```
-sudo apt-get install vim screen git -y
+sudo apt-get install vim screen git libhamlib-utils libasound2 libasound2-dev golang -y
+```
+9. Add the following lines to ~/.bashrc, reboot after.
+```
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 3a. Start Screen
 ```
 screen
 ```
 
-4. Install hamlib
-```
-sudo apt-get install libhamlib-utils
-```
-
-5. Install alsa shield
-```
-sudo apt-get install libasound2 libasound2-dev
-```
 6. Download/Install piardopc
 ```
 wget http://www.cantab.net/users/john.wiseman/Downloads/Beta/piardopc
@@ -47,15 +43,6 @@ cd direwolf
 make
 sudo make install
 make install-conf
-```
-8. Install GO language
-```
-sudo apt-get install golang
-```
-9. Add the following lines to ~/.bashrc, reboot after.
-```
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 10. Install PAT from getpat.io as suggensted with the following command. Please note that this may take some time please be patient with the install.
 ```
