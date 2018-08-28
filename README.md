@@ -52,7 +52,7 @@ make install-conf
 ```
 sudo apt-get install golang
 ```
-9. Add the following lines to ~/.bashrc
+9. Add the following lines to ~/.bashrc, reboot after.
 ```
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
