@@ -52,6 +52,7 @@ Left off with issue installing hamlib, will need to pick it up here.
 - Installing Direwolf
 - Installing PAT
 - Running needed components as a service.
+- on the KX3 you will need to set the baud rate to get a solid connection to the radio using rigctl
 
 Commands that may be useful, need to document how to work with these commands.
 '''
