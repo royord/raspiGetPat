@@ -57,7 +57,7 @@ sudo apt-get install golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
-10. Install PAT from getpat.io as suggensted with the following command
+10. Install PAT from getpat.io as suggensted with the following command. Please note that this may take some time please be patient with the install.
 ```
 go get github.com/la5nta/pat
 ```
