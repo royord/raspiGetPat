@@ -52,6 +52,11 @@ make install-conf
 ```
 sudo apt-get install golang
 ```
+9. Add the following lines to ~/.bashrc
+```
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+```
 
 Left off with issue installing hamlib, will need to pick it up here.
 - Installing Direwolf
