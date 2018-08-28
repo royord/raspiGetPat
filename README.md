@@ -61,7 +61,16 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 go get github.com/la5nta/pat
 ```
-
+11. Configure pat by running `pat configure` make sure to set the following:
+```
+"mycall":<yourCallsign>
+"secure_login_password":<yourSecretPassword>
+```
+If you plan to use the web interface you may want to also change 
+```"http_addr": "localhost:8080",```
+to
+```"http_addr": "0.0.0.0:8080",```
+so that you can use pat from any connected device.
 Left off with issue installing hamlib, will need to pick it up here.
 - Installing Direwolf
 - Installing PAT
