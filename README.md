@@ -5,6 +5,7 @@
 
 https://www.raspberrypi.org/downloads/raspbian/
 
+## Setup
 1. Enable SSH by placing a 'ssh' file in the 'boot' drive before starting up the raspberry pi for the first time. This can be done after the flashing has been done by either mounting '/dev/sdX1' and running `touch ssh` within the directory. From a mac you can use `touch /Volumes/boot/ssh`, providing that the boot volume is mounted.
 
 2. set password so that it's not easily hacked.
