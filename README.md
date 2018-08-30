@@ -46,26 +46,27 @@ Connect an USB sound card and run the command " arecord -l "
 
 This gives me the output:
 
-
+```
 **** List of CAPTURE Hardware Devices ****
 card 1: Set [C-Media USB Headphone Set], device 0: USB Audio [USB Audio]
 Subdevices: 1/1
 Subdevice #0: subdevice #0
-
+```
 
 Remember the card number and navigate to your home folder and open or create the file .asoundrc. " nano .asoundrc " The . in front of the file name is important.
 
 
 This file should contain the following lines. Just copy and paste, and replace the card number with the output number from arecord.
 
-
+```
 pcm.ARDOP {
-type rate
-slave {
-pcm "plughw:1,0"
-rate 48000
+  type rate
+   slave {
+    pcm "plughw:1,0"
+    rate 48000
+  }
 }
-}
+```
 Reference: http://la4tta.blogspot.com/search/label/ardop
 
 9. Install Direwolf
