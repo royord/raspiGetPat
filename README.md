@@ -5,39 +5,39 @@
 
 https://www.raspberrypi.org/downloads/raspbian/
 
-0. Enable SSH by placing a 'ssh' file in the 'boot' drive before starting up the raspberry pi for the first time. This can be done after the flashing has been done by either mounting '/dev/sdX1' and running `touch ssh` within the directory. From a mac you can use `touch /Volumes/boot/ssh`, providing that the boot volume is mounted.
+1. Enable SSH by placing a 'ssh' file in the 'boot' drive before starting up the raspberry pi for the first time. This can be done after the flashing has been done by either mounting '/dev/sdX1' and running `touch ssh` within the directory. From a mac you can use `touch /Volumes/boot/ssh`, providing that the boot volume is mounted.
 
-0.b set password so that it's not easily hacked.
+2. set password so that it's not easily hacked.
 ```
 passwd
 ```
-1. Start by updating expanding filesystem.
+3. Start by updating expanding filesystem.
 ```
 sudo raspi-config
 ```
 expand filesystem
 
-2. After Reboot update the raspberry pi.
+4. After Reboot update the raspberry pi.
 ```
 sudo apt-get update
 sudo apt-get dist-upgrade -y
 ```
 
-3. Install screen and VIM
+5. Install screen and VIM
 ```
 sudo apt-get install vim screen git libhamlib-utils libasound2 libasound2-dev golang -y
 ```
-9. Add the following lines to ~/.bashrc, reboot after.
+6. Add the following lines to ~/.bashrc, reboot after.
 ```
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
-3a. Start Screen
+7. Start Screen
 ```
 screen
 ```
 
-6. Download/Install piardopc
+8. Download/Install piardopc
 ```
 wget http://www.cantab.net/users/john.wiseman/Downloads/Beta/piardopc
 ```
@@ -67,7 +67,7 @@ rate 48000
 }
 Reference: http://la4tta.blogspot.com/search/label/ardop
 
-7. Install Direwolf
+9. Install Direwolf
 ```
 cd ~
 git clone https://www.github.com/wb2osz/direwolf
@@ -76,11 +76,11 @@ make
 sudo make install
 make install-conf
 ```
-10. Install PAT from getpat.io as suggensted with the following command. Please note that this may take some time please be patient with the install.
+11. Install PAT from getpat.io as suggensted with the following command. Please note that this may take some time please be patient with the install.
 ```
 go get github.com/la5nta/pat
 ```
-11. Configure pat by running `pat configure` make sure to set the following:
+12. Configure pat by running `pat configure` make sure to set the following:
 ```
 "mycall":"<yourCallsign>",
 "secure_login_password":"<yourSecretPassword>",
