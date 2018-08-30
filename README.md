@@ -2,6 +2,10 @@
 ## Requirements
 - Raspbian Light or Raspbian available through RaspberryPi.org
 - Raspberry Pi computer (Any will do).
+- Inexpensive USB Sound Card
+- Elecraft KX3
+- Elecraft KX3 audio cables
+- Elecraft KX4 USB control cable.
 
 https://www.raspberrypi.org/downloads/raspbian/
 
