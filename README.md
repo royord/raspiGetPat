@@ -47,10 +47,12 @@ Connect an USB sound card and run the command `arecord -l`
 This gives me the output:
 
 ```
+...
 **** List of CAPTURE Hardware Devices ****
 card 1: Set [C-Media USB Headphone Set], device 0: USB Audio [USB Audio]
 Subdevices: 1/1
 Subdevice #0: subdevice #0
+...
 ```
 
 Remember the card number and navigate to your home folder and open or create the file .asoundrc. " nano .asoundrc " The . in front of the file name is important.
