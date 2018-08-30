@@ -42,7 +42,7 @@ screen
 ```
 wget http://www.cantab.net/users/john.wiseman/Downloads/Beta/piardopc
 ```
-Connect an USB sound card and run the command 'arecord -l'
+Connect an USB sound card and run the command `arecord -l`
 
 This gives me the output:
 
