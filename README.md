@@ -12,11 +12,7 @@ https://www.raspberrypi.org/downloads/raspbian/
 ```
 passwd
 ```
-3. Start by updating expanding filesystem.
-```
-sudo raspi-config
-```
-expand filesystem
+3. Start by updating expanding filesystem. ```sudo raspi-config``` expand filesystem
 
 4. After Reboot update the raspberry pi.
 ```
