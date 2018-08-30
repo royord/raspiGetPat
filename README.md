@@ -1,6 +1,7 @@
 # raspiGetPat
 ## Requirements
 Raspbian Light or Raspbian available through RaspberryPi.org
+Raspberry Pi computer (Any will do).
 
 https://www.raspberrypi.org/downloads/raspbian/
 
