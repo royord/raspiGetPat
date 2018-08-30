@@ -107,11 +107,12 @@ Left off with issue installing hamlib, will need to pick it up here.
 - on the KX3 you will need to set the baud rate to get a solid connection to the radio using rigctl
 
 Commands that may be useful, need to document how to work with these commands.
-'''
+```
 arecord -l
 aplay -l
 ./piardopc 8515 hw:1,0 hw:1,0 -c /dev/ttyUSB0 -- working command
-'''
+rigctl -m 229 -s 38400 -r /dev/ttyUSB0 -v -- Starts rig control.
+```
 
 ### Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
