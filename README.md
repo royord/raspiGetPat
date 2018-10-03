@@ -123,6 +123,12 @@ aplay -l
 rigctld -m 229 -s 38400 -r /dev/ttyUSB0 -v -- Starts rig control.
 ```
 
+commands to start Pat:
+rigctld -m 229 -s 38400 -r /dev/ttyUSB0 -v
+./piardopc 8515 plughw:1,0 plughw:1,0
+pat http
+
+
 ### Sources:
 https://github.com/wb2osz/direwolf/blob/master/doc/Raspberry-Pi-APRS.pdf
 
