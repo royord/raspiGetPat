@@ -90,6 +90,13 @@ go get github.com/la5nta/pat
 "secure_login_password":"<yourSecretPassword>",
 "locator": "<yourGridSquare>",
 ```
+
+also under hamlibrig make it look like this
+```
+"hamlib_rigs": {
+        "kx3":{"address":"localhost:4532","network":"tcp"}
+},
+```
 If you need help finding your gridsquare use the following site.
 http://www.levinecentral.com/ham/grid_square.php
 
