@@ -138,3 +138,4 @@ http://hamlib.sourceforge.net/manuals/1.2.15/_i_n_s_t_a_l_l.html
 
 http://www.cantab.net/users/john.wiseman/Documents/ARDOPC.html
 http://hamlib.sourceforge.net/manuals/1.2.15/index.html
+```sudo apt-get install firmware-realtek```
